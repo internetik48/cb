@@ -434,18 +434,20 @@ h6,
 
 .footer .copyright {
     padding: 25px 0;
-    border-top: 1px solid rgba(256, 256, 256, .1);
+    border-top: 1px solid rgba(196, 196, 196, 0.9);
 }
 
 .footer .copyright a {
-    color: var(--light);
+    color: rgba(82, 111, 184, 0.9);
+    font-weight: bold;
 }
 
 .footer .footer-menu a {
     margin-right: 15px;
     padding-right: 15px;
-    border-right: 1px solid rgba(255, 255, 255, .1);
+    border-right: 1px solid rgba(82, 111, 184, 0.9);
 }
+.border-bottom {border-bottom:1px solid rgba(82, 111, 184, 0.9)!important;}
 
 .footer .footer-menu a:last-child {
     margin-right: 0;
@@ -455,7 +457,7 @@ h6,
 
 .footer .copyright a:hover,
 .footer .footer-menu a:hover {
-    color: var(--secondary);
+    color: rgba(23, 22, 22, 0.9) ;
 }
 
 .fontYekan {
@@ -519,13 +521,11 @@ p em {
 
 p span {
     font-size: medium;
-    vertical-align: middle;
-    color: white ;
+    color: rgba(82, 111, 184, 0.9) ;
 }
 .footer-copyright
 {
     font-size: small;
-    vertical-align: middle;
 }
 
 .center-item {
@@ -536,7 +536,8 @@ p span {
 
 .vert-center-item
 {
-    align-items: center;    
+    align-items: center !important;
+    vertical-align: middle !important;    
 }
 
 html {
